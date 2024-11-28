@@ -43,29 +43,29 @@
                         <a href="/menu" class="see-more">See more &gt;&gt;&gt;</a>
                     </div>
 
-                    <div class="wrapper">    
-                        <div class="card">
+                    <div class="home-wrapper">    
+                        <div class="home-card">
                             <img src="/assets/images/adobo.jpg">
                             <div class="info">
                                 <h3>Adobo</h3>
                             </div>
                         </div>
 
-                        <div class="card">
+                        <div class="home-card">
                             <img src="/assets/images/caldereta.jpg">
                             <div class="info">
                                 <h3>Caldereta</h3>
                             </div>
                         </div>
 
-                        <div class="card">
+                        <div class="home-card">
                             <img src="/assets/images/bicol-express.jpg">
                             <div class="info">
                                 <h3>Bicol Express</h3>
                             </div>
                         </div>
 
-                        <div class="card">
+                        <div class="home-card">
                             <img src="/assets/images/kare-kare.jpg">
                             <div class="info">
                                 <h3>Kare-kare</h3>
