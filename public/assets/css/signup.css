@@ -13,7 +13,7 @@ body {
     align-items: center;
     height: 100%;
     margin: 0;
-    background-image: url('/assets/images/sign-up1.jpg'); 
+    background-image: url('/assets/images/sign-up2.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -105,7 +105,7 @@ nav ul li:hover .button {
 /* Centered Header Text styling */
 .header-text {
     text-align: center;
-    color: white;
+    color: #ff7979;
     width: 100%;
     padding: 40px;
     margin-top: 70px;
@@ -125,7 +125,7 @@ nav ul li:hover .button {
 
 h2 {
     font-size: 24px;
-    color: #333;
+    color: #d13469;
     text-align: center;
     margin-bottom: 20px;
 }

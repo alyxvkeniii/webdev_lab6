@@ -26,14 +26,26 @@ Route::get('/faq', function () {
 
 Route::view('/faq', 'faq')->name('faq');
 
+Route::get('/faq2', function () {
+    return view('faq2');
+});
+
+Route::get('/menu2', function () {
+    return view('menu2');
+});
+
+Route::view('/menu2', 'menu2')->name('menu2');
+
+Route::view('/faq2', 'faq2')->name('faq2');
+
 
 Route::view('/profile', 'profile')->name('profile');
 
-Route::get('/recipe', function () {
-    return view('recipe');
+Route::get('/my-recipe', function () {
+    return view('my-recipe');
 });
 
-Route::view('/recipe', 'recipe')->name('recipe');
+Route::view('/my-recipe', 'my-recipe')->name('my-recipe');
 
 Route::get('/settings', function () {
     return view('settings');
@@ -43,6 +55,9 @@ Route::view('/settings', 'settings')->name('settings');
 
 Route::view('/policy', 'policy')->name('policy');
 Route::view('/terms', 'terms')->name('terms');
+
+Route::view('/privacy', 'privacy')->name('privacy');
+Route::view('/use', 'use')->name('use');
 
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login'); 
 Route::post('/login', [LoginController::class, 'login']); 

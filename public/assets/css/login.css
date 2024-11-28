@@ -13,6 +13,10 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url('/assets/images/sign-up1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 /* Header styles */
@@ -91,7 +95,7 @@ nav ul li:hover .button {
 
 h2 {
     font-size: 24px;
-    color: #333;
+    color: #d13469;
     text-align: left;
 }
 
