@@ -40,6 +40,7 @@ Route::view('/faq2', 'faq2')->name('faq2');
 
 
 Route::view('/profile', 'profile')->name('profile');
+Route::view('/account', 'account')->name('account');
 
 Route::get('/my-recipe', function () {
     return view('my-recipe');

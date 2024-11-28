@@ -10,8 +10,13 @@
             <div class="welcome-container">
                 <img src="/assets/images/welcome.jpg" alt="welcome image">
                     <div class="text-container cute-font">
-                        <h2>Join PICKK Recipe!</h2>
-                        <p>Your Go-To Platform for Tried-and-True Recipes</p>
+                        <h2>Welcome to PICKK'S Recipe</h2>
+                        <p>What would you like to cook today?</p>
+                        <br>
+                        <div class="search-container">
+                          <input type="text" placeholder="Search Recipe..." class="search-input">
+                          <button class="search-button">Search</button>
+                      </div>
                     </div>
             </div>
         </section>
