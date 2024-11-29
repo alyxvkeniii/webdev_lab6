@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\Menu2Controller;
 use App\Http\Controllers\LoginController;
 
 
@@ -30,11 +31,7 @@ Route::get('/faq2', function () {
     return view('faq2');
 });
 
-Route::get('/menu2', function () {
-    return view('menu2');
-});
-
-Route::view('/menu2', 'menu2')->name('menu2');
+Route::get('/menu2', [Menu2Controller::class, 'index'])->name('menu2');
 
 Route::view('/faq2', 'faq2')->name('faq2');
 
