@@ -12,7 +12,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard/{userId}', [DashboardController::class, 'index'])->name('dashboard');
 });
 
-Route::view('/dashboard', 'dashboard')->name('dashboard');
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
 Route::get('/menu', function () {
     return view('menu');

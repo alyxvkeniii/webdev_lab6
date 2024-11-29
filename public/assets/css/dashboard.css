@@ -541,3 +541,45 @@ footer p {
 }
 
 /* END ofFooter styles */
+
+/*START of  Create Recipe Section */
+#create-recipe-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding: 25px 50px;
+    background-color: white;
+}
+
+.create-recipe-container {
+    width: 50%;
+    padding: 20px;
+    margin-right: 50px; 
+}
+
+.create-recipe-text-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: justify; 
+}
+
+.create-recipe-text-container h2 {
+    color: #d13469;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.create-recipe-text-container p {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.move-left-image {
+    margin-right: 180px;
+}
+
+
+
+/*END of  Create Recipe Section */
