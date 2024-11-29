@@ -134,10 +134,6 @@
                 </div>
             </div>
         </section>
-<<<<<<< Updated upstream
+
         <!--END OF CELEBRATE PICKK SECTION-->
 @endsection
-=======
-        <!-- END OF CELEBRATE PICKK SECTION -->
-@endsection
->>>>>>> Stashed changes
